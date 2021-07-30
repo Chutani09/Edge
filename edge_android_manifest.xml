@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="5160004" versionName="46.06.4.5160" compileSdkVersion="29" compileSdkVersionCodename="10" package="com.microsoft.emmx" platformBuildVersionCode="29" platformBuildVersionName="10">
+
+  <uses-sdk minSdkVersion="19" targetSdkVersion="29"/>
+
+  <uses-feature glEsVersion="0x20000"/>
+
+  <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+  <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+
+  <uses-permission-sdk-23 name="android.permission.ACCESS_WIFI_STATE"/>
+
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+
+  <uses-permission-sdk-23 name="com.microsoft.emmx.configurator.READ"/>
+
+  <uses-permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+  <uses-permission-sdk-23 name="android.permission.BLUETOOTH"/>
+
+  <uses-permission-sdk-23 name="android.permission.BLUETOOTH_ADMIN"/>
+
+  <uses-permission-sdk-23 name="android.permission.READ_CONTACTS"/>
+
+  <uses-permission-sdk-23 name="android.permission.REORDER_TASKS"/>
+
+  <uses-permission-sdk-23 name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+  <uses-permission name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+
+  <uses-permission name="android.permission.CAMERA"/>
+
+  <uses-permission name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+
+  <uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+
+  <uses-permission name="android.permission.GET_ACCOUNTS"/>
+
+  <uses-permission name="android.permission.INTERNET"/>
+
+  <uses-permission name="android.permission.MANAGE_ACCOUNTS"/>
+
+  <uses-permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+  <uses-permission name="android.permission.NFC"/>
+
+  <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+  <uses-permission name="android.permission.READ_SYNC_SETTINGS"/>
+
+  <uses-permission name="android.permission.READ_SYNC_STATS"/>
+
+  <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+  <uses-permission name="android.permission.RECORD_AUDIO"/>
+
+  <uses-permission name="android.permission.USE_CREDENTIALS"/>
+
+  <uses-permission-sdk-23 name="android.permission.USE_FINGERPRINT"/>
+
+  <uses-permission name="android.permission.VIBRATE"/>
+
+  <uses-permission name="android.permission.WAKE_LOCK" maxSdkVersion="25"/>
+
+  <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+  <uses-permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+
+  <uses-feature name="android.software.vr.mode" required="false"/>
+
+  <uses-feature name="android.hardware.vr.high_performance" required="false"/>
+
+  <uses-feature name="android.hardware.screen.landscape" required="false"/>
+
+  <uses-feature name="android.hardware.vr.headtracking" required="false" version="1"/>
+
+  <uses-feature name="android.hardware.sensor.gyroscope" required="false"/>
+
+  <uses-feature name="android.hardware.sensor.accelerometer" required="false"/>
+
+  <permission name="com.microsoft.emmx.permission.CHILD_SERVICE" protectionLevel="0x2"/>
+
+  <permission name="com.microsoft.emmx.permission.READ_WRITE_BOOKMARK_FOLDERS" protectionLevel="0x3"/>
+
+  <permission name="com.microsoft.emmx.TOS_ACKED" protectionLevel="0x3"/>
+
+  <permission label="Debug web pages" name="com.microsoft.emmx.permission.DEBUG" protectionLevel="0x2" permissionGroup="android.permission-group.DEVELOPMENT_TOOLS"/>
+
+  <uses-permission name="com.microsoft.emmx.permission.READ_WRITE_BOOKMARK_FOLDERS"/>
+
+  <uses-permission name="com.microsoft.emmx.TOS_ACKED"/>
+
+  <uses-permission name="com.chrome.permission.DEVICE_EXTRAS"/>
+
+  <uses-permission name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+
+  <uses-permission name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+
+  <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+
+  <uses-permission name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+
+  <uses-permission name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS"/>
+
+  <uses-feature name="android.hardware.location.gps" required="false"/>
+
+  <uses-feature name="android.hardware.camera" required="false"/>
+
+  <uses-feature name="android.hardware.microphone" required="false"/>
+
+  <uses-feature name="android.hardware.touchscreen" required="false"/>
+
+  <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+
+  <uses-permission name="android.permission.FLASHLIGHT"/>
+
+  <permission name="com.microsoft.emmx.permission.C2D_MESSAGE" protectionLevel="0x2"/>
+
+  <uses-permission name="com.microsoft.emmx.permission.C2D_MESSAGE"/>
+
+  <uses-feature name="android.hardware.bluetooth" required="false"/>
+
+  <uses-feature name="android.hardware.bluetooth_le" required="false"/>
+
+  <uses-permission name="com.sony.mobile.permission.SYSTEM_UI_VISIBILITY_EXTENSION"/>
+
+  <uses-permission name="android.permission.BLUETOOTH_ADMIN"/>
+
+  <uses-permission name="android.permission.BLUETOOTH"/>
+
+  <uses-permission name="android.permission.READ_CONTACTS"/>
+
+  <uses-permission name="android.permission.READ_PROFILE"/>
+
+  <uses-feature name="android.hardware.telephony" required="false"/>
+
+  <application label="Edge" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.ChromeApplication" manageSpaceActivity="org.chromium.chrome.browser.preferences.website.ManageSpaceActivity" allowBackup="false" largeHeap="false" supportsRtl="true" fullBackupContent="res/xml/backup_config.xml" usesCleartextTraffic="true" networkSecurityConfig="res/xml/network_security_config.xml">
+
+    <meta-data name="android.allow_multiple_resumed_activities" value="true"/>
+
+    <uses-library name="org.apache.http.legacy" required="false"/>
+
+    <meta-data name="com.samsung.android.sdk.multiwindow.enable" value="true"/>
+
+    <meta-data name="com.samsung.android.sdk.multiwindow.multiinstance.enable" value="true"/>
+
+    <meta-data name="com.samsung.android.sdk.multiwindow.multiinstance.launchmode" value="singleTask"/>
+
+    <meta-data name="com.samsung.android.sdk.multiwindow.penwindow.enable" value="true"/>
+
+    <meta-data name="com.microsoft.bingsearchsdk.partnercode" value="EMMX01"/>
+
+    <meta-data name="com.microsoft.bingsearchsdk.browsercapability" value="true"/>
+
+    <meta-data name="com.microsoft.emmx.commitid" value="5b516a7ff047b7e677ede6359c03b6b5cc39bc0e"/>
+
+    <meta-data name="com.sec.android.support.multiwindow" value="true"/>
+
+    <meta-data name="android.content.APP_RESTRICTIONS" resource="app_restrictions"/>
+
+    <meta-data name="com.microsoft.intune.mam.DisableOfflineLogging" value="true"/>
+
+    <meta-data name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" value="org.chromium.chrome.browser.media.router.caf.CastOptionsProvider"/>
+
+    <activity theme="LauncherTheme" name="org.chromium.chrome.browser.document.ChromeLauncherActivity" taskAffinity="" excludeFromRecents="true" configChanges="0x1fb3" relinquishTaskIdentity="true">
+
+      <meta-data name="com.google.android.vr.icon" resource="daydream_icon_foreground"/>
+
+      <meta-data name="com.google.android.vr.icon_background" resource="daydream_icon_background"/>
+
+    </activity>
+
+    <activity-alias name="com.microsoft.ruby.Main" exported="true" targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MAIN"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.LAUNCHER"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <category name="android.intent.category.APP_BROWSER"/>
+
+        <category name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+      </intent-filter>
+
+      <meta-data name="android.app.shortcuts" resource="launchershortcuts"/>
+
+    </activity-alias>
+
+    <activity-alias name="com.microsoft.ruby.IntentDispatcher" exported="true" targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity">
+
+      <intent-filter autoVerify="true">
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <data scheme="https" host="emmx.microsoftedgeinsider.com" path="/sync-beta"/>
+
+        <data scheme="https" host="microsoftedgewelcome.microsoft.com" path="/emmx/edge-fre"/>
+
+        <data scheme="https" host="microsoftedgewelcome.microsoft.com" path="/emmx/edge-settings"/>
+
+        <data scheme="https" host="microsoftedgewelcome.microsoft.com" path="/emmx/edge-sync"/>
+
+        <data scheme="https" host="microsoftedgewelcome.microsoft.com" path="/emmx/edge-favorites"/>
+
+        <data scheme="https" host="microsoftedgewelcome.microsoft.com" path="/emmx/edge-collections"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.MAIN"/>
+
+        <category name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+
+        <category name="com.google.intent.category.DAYDREAM"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <category name="com.google.intent.category.DAYDREAM"/>
+
+        <data scheme="http"/>
+
+        <data scheme="https"/>
+
+        <data scheme="about"/>
+
+        <data scheme="javascript"/>
+
+        <data scheme="microsoft-edge"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <category name="com.google.intent.category.DAYDREAM"/>
+
+        <data scheme="http"/>
+
+        <data scheme="https"/>
+
+        <data scheme="about"/>
+
+        <data scheme="javascript"/>
+
+        <data scheme="microsoft-edge"/>
+
+        <data scheme="content"/>
+
+        <data mimeType="text/html"/>
+
+        <data mimeType="text/plain"/>
+
+        <data mimeType="application/xhtml+xml"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+        <data mimeType="multipart/related"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+        <data mimeType="message/rfc822"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <category name="com.google.intent.category.DAYDREAM"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+        <data host="*"/>
+
+        <data pathPattern="/.*\.mhtml"/>
+
+        <data pathPattern="/.*\.mht"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <category name="com.google.intent.category.DAYDREAM"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+        <data host="*"/>
+
+        <data pathPattern="/.*\.mhtml"/>
+
+        <data pathPattern="/.*\.mht"/>
+
+        <data mimeType="*/*"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_SEARCH"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.speech.action.VOICE_SEARCH_RESULTS"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.nfc.action.NDEF_DISCOVERED"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data scheme="http"/>
+
+        <data scheme="https"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEARCH"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="com.sec.android.airview.HOVER"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEND"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <category name="android.intent.category.BROWSABLE"/>
+
+        <data scheme="http-intunemam"/>
+
+        <data scheme="https-intunemam"/>
+
+      </intent-filter>
+
+      <meta-data name="android.app.searchable" resource="searchable"/>
+
+      <meta-data name="com.google.android.vr.icon" resource="daydream_icon_foreground"/>
+
+      <meta-data name="com.google.android.vr.icon_background" resource="daydream_icon_background"/>
+
+    </activity-alias>
+
+    <activity theme="HubActivityTheme" name="org.chromium.chrome.browser.hub.HubActivity" exported="false" launchMode="1" configChanges="0xfb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.media.MediaLauncherActivity" enabled="false" exported="true" excludeFromRecents="true">
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="image/*"/>
+
+        <data mimeType="video/*"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity-alias theme="Theme.NoDisplay" name="org.chromium.chrome.browser.media.AudioLauncherActivity" enabled="false" exported="true" excludeFromRecents="true" targetActivity="org.chromium.chrome.browser.media.MediaLauncherActivity">
+
+      <intent-filter>
+
+        <action name="android.intent.action.VIEW"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="audio/*"/>
+
+        <data scheme="file"/>
+
+        <data scheme="content"/>
+
+      </intent-filter>
+
+    </activity-alias>
+
+    <activity theme="Theme.Chromium.Activity" name="org.chromium.chrome.browser.media.PictureInPictureActivity" exported="false" excludeFromRecents="true" configChanges="0xd80" noHistory="true" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.LauncherShortcutActivity" exported="false" taskAffinity="" excludeFromRecents="true"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.incognito.IncognitoTabLauncher" enabled="false" exported="true" taskAffinity="" excludeFromRecents="true">
+
+      <intent-filter>
+
+        <action name="org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <receiver name="org.chromium.chrome.browser.upgrade.PackageReplacedBroadcastReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="org.chromium.chrome.browser.locale.LocaleChangedBroadcastReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.LOCALE_CHANGED"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity theme="Theme.Chromium.Activity" name="org.chromium.chrome.browser.customtabs.CustomTabActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Activity.FakeTranslucent" name="org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" name="org.chromium.chrome.browser.customtabs.WindowedCustomTabActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Activity.Translucent" name="org.chromium.chrome.browser.customtabs.PaymentHandlerActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity" exported="false" taskAffinity="" excludeFromRecents="true" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" autoRemoveFromRecents="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity0" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity1" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity2" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity3" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity4" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity5" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity6" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity7" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity8" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="CustomTabTheme" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity9" exported="false" taskAffinity="" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen.Transparent" name="org.chromium.chrome.browser.incognito.IncognitoDisclosureActivity" exported="false"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.ChromeTabbedActivity" exported="true" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.ChromeTabbedActivity2" exported="false" taskAffinity="com.microsoft.emmx.ChromeTabbedActivity2" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false"/>
+
+    <activity theme="Theme.Chromium.Activity" name="org.chromium.chrome.browser.sync.ui.PassphraseActivity" autoRemoveFromRecents="true"/>
+
+    <activity name="org.chromium.chrome.browser.firstrun.LightweightFirstRunActivity" taskAffinity=".firstRunActivity" excludeFromRecents="true" configChanges="0xdb3" windowSoftInputMode="0x22" autoRemoveFromRecents="true" resizeableActivity="false"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.firstrun.FirstRunActivity" taskAffinity=".firstRunActivity" excludeFromRecents="true" configChanges="0xdb3" windowSoftInputMode="0x22" autoRemoveFromRecents="true" resizeableActivity="false"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.firstrun.TabbedModeFirstRunActivity" taskAffinity=".firstRunActivity" excludeFromRecents="true" configChanges="0xdb3" windowSoftInputMode="0x22" autoRemoveFromRecents="true" resizeableActivity="false"/>
+
+    <activity theme="VrActivityTheme" name="org.chromium.chrome.browser.vr.VrFirstRunActivity" exported="false" taskAffinity=".firstRunActivity" excludeFromRecents="true" launchMode="3" configChanges="0xfb3" enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.signin.SigninActivity" exported="false" configChanges="0xdb3"/>
+
+    <activity theme="Theme.Chromium.Preferences" label="การตั้งค่า" name="org.chromium.chrome.browser.preferences.Preferences" exported="false" configChanges="0xdb3" windowSoftInputMode="0x10"/>
+
+    <activity theme="Theme.Chromium.Preferences.ManageSpace" label="ที่เก็บข้อมูล %1$s" name="org.chromium.chrome.browser.preferences.website.ManageSpaceActivity" exported="false" configChanges="0xdb3"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen" name="org.chromium.chrome.browser.bookmarks.BookmarkActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.bookmarks.BookmarkAddActivity" configChanges="0xdb3" windowSoftInputMode="0x2">
+
+      <intent-filter>
+
+        <action name="com.microsoft.emmx.ADDBOOKMARK"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" label="แก้ไขรายการโปรด" name="org.chromium.chrome.browser.bookmarks.BookmarkEditActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x2"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x10"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" label="เลือกโฟลเดอร์" name="org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x3"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen" name="org.chromium.chrome.browser.favorites.BookmarkActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.favorites.BookmarkAddActivity" configChanges="0xdb3" windowSoftInputMode="0x2">
+
+      <intent-filter>
+
+        <action name="com.microsoft.emmx.ADDBOOKMARK"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" label="แก้ไขรายการโปรด" name="org.chromium.chrome.browser.favorites.BookmarkEditActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x10"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" name="org.chromium.chrome.browser.favorites.BookmarkAddEditFolderActivity" exported="false" configChanges="0xdb3"/>
+
+    <activity theme="Theme.Chromium.DialogWhenLarge" label="เลือกโฟลเดอร์" name="org.chromium.chrome.browser.favorites.BookmarkFolderSelectActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x3"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen" name="org.chromium.chrome.browser.download.DownloadActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="FeedbackActivityTheme" label="คำติชม" name="org.chromium.chrome.browser.edge_feedback.FeedbackActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen" name="org.chromium.chrome.browser.history.HistoryActivity" exported="false" configChanges="0xdb3" windowSoftInputMode="0x13"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.webapps.WebappLauncherActivity" taskAffinity="" excludeFromRecents="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="org.webapk.ACTION_START_WEBAPK"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity-alias name="com.google.android.apps.chrome.webapps.WebappManager" targetActivity="org.chromium.chrome.browser.webapps.WebappLauncherActivity"/>
+
+    <activity-alias name="org.chromium.chrome.browser.webapps.SecureWebAppLauncher" exported="false" targetActivity="org.chromium.chrome.browser.webapps.WebappLauncherActivity">
+
+      <intent-filter>
+
+        <action name="org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity-alias>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" name="org.chromium.chrome.browser.webapps.WebappActivity" exported="false" launchMode="1" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" documentLaunchMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" name="com.google.android.apps.chrome.webapps.WebappActivity" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity0" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity0" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity0" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity0"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity1" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity1" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity1" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity1"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity2" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity2" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity2" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity2"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity3" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity3" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity3" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity3"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity4" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity4" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity4" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity4"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity5" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity5" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity5" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity5"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity6" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity6" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity6" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity6"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity7" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity7" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity7" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity7"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity8" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity8" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity8" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity8"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebappActivity9" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebappActivity9" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity-alias label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="com.google.android.apps.chrome.webapps.WebappActivity9" targetActivity="org.chromium.chrome.browser.webapps.WebappActivity9"/>
+
+    <activity theme="Theme.Chromium.Webapp.Translucent" label="เว็บแอป" name="org.chromium.chrome.browser.webapps.SameTaskWebApkActivity" exported="false" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" name="org.chromium.chrome.browser.webapps.WebApkActivity" exported="false" launchMode="1" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" documentLaunchMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity0" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity0" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity1" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity1" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity2" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity2" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity3" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity3" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity4" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity4" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity5" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity5" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity6" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity6" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity7" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity7" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity8" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity8" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.Chromium.Webapp" label="เว็บแอป" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.webapps.WebApkActivity9" exported="false" taskAffinity="com.microsoft.emmx.webapps.WebApkActivity9" launchMode="2" configChanges="0x1fb3" windowSoftInputMode="0x10" hardwareAccelerated="false" persistableMode="1" resizeableActivity="true" supportsPictureInPicture="true"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.webapps.ActivateWebApkActivity" exported="true">
+
+      <intent-filter>
+
+        <action name="org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.Activity" label="Chrome.CafExpandedControllerActivity" name="org.chromium.chrome.browser.media.router.caf.remoting.CafExpandedControllerActivity" excludeFromRecents="true" launchMode="2" configChanges="0xdb3" noHistory="true" hardwareAccelerated="true"/>
+
+    <activity theme="Theme.Translucent.NoTitleBar" name="org.chromium.chrome.browser.BrowserRestartActivity" exported="false" process=":browser_restart_process" excludeFromRecents="true" launchMode="3"/>
+
+    <activity theme="Theme.NoDisplay" label="พิมพ์" icon="res/drawable/print.webp" name="org.chromium.chrome.browser.printing.PrintShareActivity" enabled="false" exported="true" excludeFromRecents="true" configChanges="0xdb3" noHistory="true">
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEND"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+        <data mimeType="multipart/related"/>
+
+        <data mimeType="message/rfc822"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.NoDisplay" label="ส่งไปยังอุปกรณ์" icon="res/mipmap-anydpi-v26/app_icon.xml" name="org.chromium.chrome.browser.send_tab_to_self.SendTabToSelfShareActivity" enabled="false" exported="true" excludeFromRecents="true" configChanges="0xdb3" noHistory="true">
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEND"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.instantapps.AuthenticatedProxyActivity" exported="false" excludeFromRecents="true" noHistory="true"/>
+
+    <activity theme="Theme.NoDisplay" name="org.chromium.chrome.browser.vr.VrCancelAnimationActivity" exported="false" excludeFromRecents="true" noHistory="true" enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="com.microsoft.ruby.family.activity.FamilySignOutActivity" configChanges="0xdb3">
+
+      <intent-filter>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.microsoft_signin.MsaNormalSignInActivity" configChanges="0xdb3">
+
+      <intent-filter>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.microsoft_signin.MsaTFASignInActivity" configChanges="0xdb3">
+
+      <intent-filter>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.microsoft_signin.MicrosoftAccountSigninActivity" launchMode="1" configChanges="0xdb3" resizeableActivity="true"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="com.microsoft.authentication.adal.AadActivity" launchMode="1" configChanges="0xdb3"/>
+
+    <activity theme="BingSearchActivity_Ruby_Theme" name="com.microsoft.bing.usbsdk.internal.ui.activities.RubyBingSearchActivity" exported="true" taskAffinity="com.microsoft.emmx.bingsearchsdk.base" clearTaskOnLaunch="true" excludeFromRecents="true" launchMode="2" configChanges="0xdb3" windowSoftInputMode="0x24"/>
+
+    <activity theme="Theme.Bing.Transparent" name="com.microsoft.bing.commonuilib.ErrorActivity" excludeFromRecents="true" screenOrientation="2" configChanges="0x4a0" windowSoftInputMode="0x3"/>
+
+    <receiver name="org.chromium.chrome.browser.bing_search_sdk.PinSearchWidgetReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="com.microsoft.bing.usbsdk.api.PIN_SEARCH_WIDGET_ACTION"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="org.chromium.chrome.browser.browserservices.ClientAppBroadcastReceiver" exported="true">
+
+      <intent-filter>
+
+        <data scheme="package"/>
+
+        <action name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+
+        <action name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+
+      </intent-filter>
+
+      <intent-filter>
+
+        <action name="org.chromium.chrome.browser.browserservices.ClientAppBroadcastReceiver.DEBUG"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity theme="Theme.Chromium.ClearDataDialogActivity" name="org.chromium.chrome.browser.browserservices.ClearDataDialogActivity" exported="false"/>
+
+    <activity theme="Theme.Chromium.Activity.Fullscreen.Transparent" name="org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity" exported="true">
+
+      <intent-filter>
+
+        <action name="android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data scheme="https"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <service name="org.chromium.chrome.browser.photo_picker.DecoderService" exported="false" process=":decoder_service" description="ตัวถอดรหัสรูปภาพ" isolatedProcess="true"/>
+
+    <provider name="org.chromium.chrome.browser.provider.ChromeBrowserProvider" exported="true" authorities="com.microsoft.emmx.ChromeBrowserProvider;com.microsoft.emmx.browser;com.microsoft.emmx">
+
+      <path-permission readPermission="android.permission.GLOBAL_SEARCH" path="/bookmarks/search_suggest_query"/>
+
+    </provider>
+
+    <provider name="org.chromium.chrome.browser.util.ChromeFileProvider" exported="false" authorities="com.microsoft.emmx.FileProvider" grantUriPermissions="true">
+
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="file_paths"/>
+
+    </provider>
+
+    <provider name="org.chromium.chrome.browser.download.DownloadFileProvider" exported="false" authorities="com.microsoft.emmx.DownloadFileProvider" grantUriPermissions="true">
+
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="file_paths"/>
+
+    </provider>
+
+    <service name="org.chromium.chrome.browser.download.DownloadForegroundService" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.download.DownloadBroadcastManager" exported="false"/>
+
+    <receiver label="EMMX favorites" name="com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider">
+
+      <meta-data name="android.appwidget.provider" resource="bookmark_widget_info"/>
+
+    </receiver>
+
+    <service name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetService" permission="android.permission.BIND_REMOTEVIEWS" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetProxy" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.services.gcm.EMMXGcmRegistrationTaskService" permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.services.gcm.EMMXInstanceIDListenerService">
+
+      <intent-filter>
+
+        <action name="com.google.firebase.INSTANCE_ID_EVENT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.services.gcm.ChromeGcmListenerService">
+
+      <intent-filter>
+
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.services.gcm.GCMBackgroundService" exported="false"/>
+
+    <service name="com.google.ipc.invalidation.ticl.android2.TiclService" exported="false"/>
+
+    <service name="com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService" exported="false"/>
+
+    <receiver name="com.google.ipc.invalidation.ticl.android2.AndroidInternalScheduler$AlarmReceiver" exported="false"/>
+
+    <receiver name="com.google.ipc.invalidation.external.client.contrib.AndroidListener$AlarmReceiver" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.notifications.NotificationService" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.notifications.NotificationService$Receiver" exported="false">
+
+      <intent-filter>
+
+        <action name="org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"/>
+
+        <action name="org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <service name="org.chromium.chrome.browser.notifications.NotificationJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <service name="org.chromium.components.background_task_scheduler.BackgroundTaskJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <service name="org.chromium.components.background_task_scheduler.BackgroundTaskGcmTaskService" permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.ChromeBackgroundService" permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.microsoft_signin.MicrosoftAccountAuthenticatorService">
+
+      <intent-filter>
+
+        <action name="android.accounts.AccountAuthenticator"/>
+
+      </intent-filter>
+
+      <meta-data name="android.accounts.AccountAuthenticator" resource="authenticator"/>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.prerender.ChromePrerenderService" exported="true"/>
+
+    <service name="org.chromium.chrome.browser.customtabs.CustomTabsConnectionService" exported="true">
+
+      <intent-filter>
+
+        <action name="android.support.customtabs.action.CustomTabsService"/>
+
+        <category name="androidx.browser.trusted.category.TrustedWebActivities"/>
+
+        <category name="androidx.browser.trusted.category.TrustedWebActivitySplashScreensV1"/>
+
+        <category name="androidx.browser.customtabs.category.NavBarColorCustomization"/>
+
+        <category name="androidx.browser.customtabs.category.ColorSchemeCustomization"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="android.support.customtabs.PostMessageService"/>
+
+    <service name="org.chromium.chrome.browser.crash.ChromeMinidumpUploadJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.crash.MinidumpUploadService" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.omaha.OmahaClient" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.incognito.IncognitoNotificationService" exported="false"/>
+
+    <meta-data name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" value="40"/>
+
+    <meta-data name="org.chromium.content.browser.SANDBOXED_SERVICES_NAME" value="org.chromium.content.app.EdgeSandboxedProcessService"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService0" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process0" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService1" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process1" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService2" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process2" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService3" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process3" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService4" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process4" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService5" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process5" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService6" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process6" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService7" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process7" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService8" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process8" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService9" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process9" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService10" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process10" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService11" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process11" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService12" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process12" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService13" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process13" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService14" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process14" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService15" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process15" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService16" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process16" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService17" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process17" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService18" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process18" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService19" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process19" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService20" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process20" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService21" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process21" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService22" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process22" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService23" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process23" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService24" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process24" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService25" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process25" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService26" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process26" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService27" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process27" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService28" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process28" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService29" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process29" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService30" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process30" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService31" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process31" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService32" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process32" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService33" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process33" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService34" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process34" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService35" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process35" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService36" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process36" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService37" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process37" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService38" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process38" isolatedProcess="true"/>
+
+    <service name="org.chromium.content.app.EdgeSandboxedProcessService39" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":sandboxed_process39" isolatedProcess="true"/>
+
+    <meta-data name="org.chromium.content.browser.NUM_PRIVILEGED_SERVICES" value="5"/>
+
+    <meta-data name="org.chromium.content.browser.PRIVILEGED_SERVICES_NAME" value="org.chromium.content.app.EdgePrivilegedProcessService"/>
+
+    <meta-data name="com.microsoft.emmx:privileged_process0.ignore_multidex" value="true"/>
+
+    <service name="org.chromium.content.app.EdgePrivilegedProcessService0" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":privileged_process0" isolatedProcess="false"/>
+
+    <meta-data name="com.microsoft.emmx:privileged_process1.ignore_multidex" value="true"/>
+
+    <service name="org.chromium.content.app.EdgePrivilegedProcessService1" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":privileged_process1" isolatedProcess="false"/>
+
+    <meta-data name="com.microsoft.emmx:privileged_process2.ignore_multidex" value="true"/>
+
+    <service name="org.chromium.content.app.EdgePrivilegedProcessService2" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":privileged_process2" isolatedProcess="false"/>
+
+    <meta-data name="com.microsoft.emmx:privileged_process3.ignore_multidex" value="true"/>
+
+    <service name="org.chromium.content.app.EdgePrivilegedProcessService3" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":privileged_process3" isolatedProcess="false"/>
+
+    <meta-data name="com.microsoft.emmx:privileged_process4.ignore_multidex" value="true"/>
+
+    <service name="org.chromium.content.app.EdgePrivilegedProcessService4" permission="com.microsoft.emmx.permission.CHILD_SERVICE" exported="false" process=":privileged_process4" isolatedProcess="false"/>
+
+    <receiver name="org.chromium.chrome.browser.notifications.NotificationIntentInterceptor$Receiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.notifications.scheduler.DisplayAgent$Receiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.send_tab_to_self.NotificationManager$TapReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.send_tab_to_self.NotificationManager$DeleteReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.send_tab_to_self.NotificationManager$TimeoutReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$TapReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.offlinepages.prefetch.PrefetchedPagesNotifier$ClickReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.offlinepages.prefetch.PrefetchedPagesNotifier$SettingsReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.offlinepages.AutoFetchNotifier$CompleteNotificationReceiver" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.offlinepages.AutoFetchNotifier$InProgressCancelReceiver" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.media.MediaCaptureNotificationService" exported="false"/>
+
+    <service name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$PlaybackListenerService" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$PresentationListenerService" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$CastListenerService" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </service>
+
+    <receiver name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$PlaybackMediaButtonReceiver">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$PresentationMediaButtonReceiver">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="org.chromium.chrome.browser.media.ui.MediaNotificationManager$CastMediaButtonReceiver">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MEDIA_BUTTON"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.microsoft.bing.partnercodelib.api.InstallListener" enabled="false" exported="false">
+
+      <intent-filter>
+
+        <action name="com.android.vending.INSTALL_REFERRER"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" permission="android.permission.INSTALL_PACKAGES" enabled="false" exported="false">
+
+      <intent-filter>
+
+        <action name="com.android.vending.INSTALL_REFERRER"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <meta-data name="com.microsoft.intune.mam.MAMMultiIdentity" value="true"/>
+
+    <meta-data name="com.microsoft.intune.mam.aad.ClientID" value="f44b1140-bc5e-48c6-8dc0-5cf5a53c0e34"/>
+
+    <meta-data name="com.microsoft.intune.mam.aad.SkipBroker" value="false"/>
+
+    <meta-data name="com.microsoft.intune.mam.aad.MAMPolicyRequired" value="false"/>
+
+    <service name="org.chromium.chrome.browser.tracing.TracingNotificationService" exported="false"/>
+
+    <receiver name="org.chromium.chrome.browser.omaha.UpdateNotificationController$UpdateNotificationReceiver" exported="false"/>
+
+    <meta-data name="org.chromium.content.browser.SMART_CLIP_PROVIDER" value="org.chromium.content_public.browser.SmartClipProvider"/>
+
+    <meta-data name="com.microsoft.emmx.customtab.multiurl" value="true"/>
+
+    <meta-data name="com.microsoft.emmx.customtab.cookie_support" value="true"/>
+
+    <meta-data name="com.microsoft.emmx.customtab.enhanced.version" value="1"/>
+
+    <meta-data name="com.microsoft.emmx.family.status_broadcast" value="true"/>
+
+    <receiver name="com.microsoft.ruby.family.broadcast.MicrosoftLauncherReceiver">
+
+      <intent-filter>
+
+        <action name="com.microsoft.launcher.EdgeSync_Request"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity theme="FloodgateTheme" name="com.microsoft.office.feedback.floodgate.MainActivity" configChanges="0x480"/>
+
+    <activity theme="FloodgateTheme" name="com.microsoft.office.feedback.inapp.MainActivity" configChanges="0x480"/>
+
+    <activity theme="TransparentTheme" label="ใช้งานต่อบนพีซี" icon="res/drawable-v4/mmx_sdk_send_to_pc_share_via_icon.webp" name="com.microsoft.mmx.core.ui.WebPageShareActivity" enabled="true" taskAffinity="">
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEND"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="TransparentTheme" icon="res/drawable-v4/mmx_sdk_send_to_pc_share_via_icon.webp" name="com.microsoft.mmx.core.ui.WebPageShareActivityDebug" enabled="false" taskAffinity="">
+
+      <intent-filter>
+
+        <action name="android.intent.action.SEND"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="com.microsoft.rewards.react.RewardsDashboardActivity" exported="false" configChanges="0x1fb3"/>
+
+    <activity theme="Theme.Chromium.TabbedMode" name="org.chromium.chrome.browser.firstrun.EdgeSplashActivity" exported="false" configChanges="0x1fb3"/>
+
+    <activity theme="hd_FileExplorerActivityTheme" name="com.microsoft.ruby.file_explorer.FileExplorerActivity"/>
+
+    <meta-data name="com.google.android.gms.version" value="12451000"/>
+
+    <activity theme="Theme.Translucent.NoTitleBar" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+
+    <receiver name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" exported="false"/>
+
+    <service name="com.google.android.gms.cast.framework.media.MediaNotificationService" exported="false"/>
+
+    <service name="com.google.android.gms.cast.framework.ReconnectionService" exported="false"/>
+
+    <service label="" name="com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService" exported="true"/>
+
+    <service label="" name="com.microsoft.intune.mam.client.service.MAMBackgroundService" exported="false"/>
+
+    <service label="" name="com.microsoft.intune.mam.client.service.MAMBackgroundJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <receiver name="com.microsoft.intune.mam.client.service.MAMBackgroundReceiver">
+
+      <intent-filter>
+
+        <action name="android.intent.action.DOWNLOAD_COMPLETE"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity name="com.microsoft.intune.mam.client.app.offline.OfflineStartupBlockedActivity" exported="false" multiprocess="true"/>
+
+    <activity name="com.microsoft.intune.mam.client.app.offline.OfflineRestartRequiredActivity" exported="false" multiprocess="true"/>
+
+    <activity name="com.microsoft.intune.mam.client.app.startup.MAMStartupActivity" exported="false" multiprocess="true"/>
+
+    <activity theme="MAMDialogTheme" name="com.microsoft.intune.mam.client.app.resolver.MAMResolverActivity" exported="false" taskAffinity=""/>
+
+    <activity theme="MAMDialogTheme" name="com.microsoft.intune.mam.client.app.offline.OfflineInstallCompanyPortalDialogActivity" exported="false" multiprocess="true"/>
+
+    <activity name="com.microsoft.intune.mam.client.app.offline.OfflineNotifyWipeActivity" exported="false"/>
+
+    <activity label="ComplianceBlock" name="com.microsoft.intune.mam.client.app.startup.MAMComplianceBlockActivity" exported="false"/>
+
+    <activity name="com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity" configChanges="0x4a0"/>
+
+    <activity name="com.microsoft.aad.adal.AuthenticationActivity"/>
+
+    <activity theme="Theme.Bing.Transparent" name="com.microsoft.bing.usbsdk.internal.intent_dispatcher.IntentDispatcherActivity" taskAffinity="" excludeFromRecents="true" configChanges="0x1fb3" relinquishTaskIdentity="true"/>
+
+    <activity-alias label="ค้นหาใน Edge" name="com.microsoft.bing.ProcessTextSearch" exported="true" targetActivity="com.microsoft.bing.usbsdk.internal.intent_dispatcher.IntentDispatcherActivity">
+
+      <intent-filter>
+
+        <action name="android.intent.action.PROCESS_TEXT"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+        <data mimeType="text/plain"/>
+
+      </intent-filter>
+
+    </activity-alias>
+
+    <activity theme="Theme.AppCompat.Translucent" name="com.microsoft.bing.usbsdk.internal.ui.activities.TutorialActivity" taskAffinity="" excludeFromRecents="true" configChanges="0x40002484" resizeableActivity="false"/>
+
+    <activity theme="CommonTheme" name="com.microsoft.bing.commonuilib.feedback.FeedbackActivity" launchMode="1" configChanges="0x1fb3"/>
+
+    <activity theme="Theme.AppCompat.Light.NoActionBar" name="com.microsoft.bing.commonuilib.webview.WebViewActivity" launchMode="1" configChanges="0x1fb3"/>
+
+    <activity theme="CaptureTheme" name="com.google.zxing.client.android.CaptureActivityEx" exported="true" stateNotNeeded="true" configChanges="0x4a0" windowSoftInputMode="0x3"/>
+
+    <activity theme="VoiceActivity_Dark_Theme" name="com.microsoft.bing.voiceai.search.ui.VoiceActivity" launchMode="1" screenOrientation="3" configChanges="0x1fb3"/>
+
+    <activity theme="VisualSearchTheme" name="com.microsoft.bing.visualsearch.camerasearchv2.main.VisualSearchActivity" exported="true" stateNotNeeded="true" launchMode="1" configChanges="0x1f37"/>
+
+    <activity theme="VisualSearchTheme_E" name="com.microsoft.bing.visualsearch.camerasearchv2.main.EVisualSearchActivity" exported="true" stateNotNeeded="true" launchMode="1" screenOrientation="3"/>
+
+    <activity theme="ContentTheme" name="com.microsoft.bing.visualsearch.camerasearchv2.content.ContentActivity" launchMode="1" configChanges="0x1fb7"/>
+
+    <activity theme="VisualSearchTheme" name="com.microsoft.bing.visualsearch.shopping.ShoppingActivity" exported="true" stateNotNeeded="true" launchMode="1" configChanges="0x1fb7"/>
+
+    <activity theme="VisualSearchTheme_E" name="com.microsoft.bing.visualsearch.shopping.EShoppingActivity" exported="true" stateNotNeeded="true" launchMode="1" screenOrientation="3" configChanges="0x1fb7"/>
+
+    <activity theme="ContentTheme" name="com.microsoft.bing.visualsearch.shopping.ShoppingContentActivity" launchMode="1" configChanges="0x1fb7"/>
+
+    <activity theme="BaseTheme" name="com.microsoft.bing.visualsearch.camerasearchv2.skills.SkillsActivity" configChanges="0x1fb7"/>
+
+    <activity theme="BarcodeTheme" name="com.microsoft.bing.visualsearch.barcode.BarcodeActivity" exported="true" stateNotNeeded="true" launchMode="1" configChanges="0x4a0" windowSoftInputMode="0x3"/>
+
+    <activity theme="BarcodeTheme_E" name="com.microsoft.bing.visualsearch.barcode.EBarcodeActivity" exported="true" stateNotNeeded="true" launchMode="1" screenOrientation="3" windowSoftInputMode="0x3"/>
+
+    <receiver name="com.microsoft.bing.usbsdk.internal.connectivity.ConnectivityStatusReceiver">
+
+      <intent-filter>
+
+        <action name="android.net.conn.CONNECTIVITY_CHANGE"/>
+
+        <action name="SDK.ConnectivityStatusReceiver.CONNECTIVITY_CHANGE"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.microsoft.bing.aiesdk.widget.EdgeWidgetProvider" exported="true">
+
+      <intent-filter>
+
+        <action name="android.appwidget.action.APPWIDGET_UPDATE"/>
+
+        <action name="com.microsoft.bing.usbsdk.api.APPWIDGET_UPDATE"/>
+
+      </intent-filter>
+
+      <meta-data name="android.appwidget.provider" resource="widget_info_search_box"/>
+
+    </receiver>
+
+    <service name="com.google.firebase.components.ComponentDiscoveryService">
+
+      <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar"/>
+
+    </service>
+
+    <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.c2dm.intent.RECEIVE"/>
+
+        <category name="com.microsoft.emmx"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <service name="com.google.firebase.iid.FirebaseInstanceIdService" exported="true">
+
+      <intent-filter priority="-500">
+
+        <action name="com.google.firebase.INSTANCE_ID_EVENT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.firebase.jobdispatcher.GooglePlayReceiver" permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="true">
+
+      <intent-filter priority="-500">
+
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.microsoft.mmx.reporting.PostRequestService" exported="false">
+
+      <intent-filter>
+
+        <action name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+
+      </intent-filter>
+
+    </service>
+
+    <receiver name="com.microsoft.mmx.reporting.SharedStateManager" enabled="true" exported="true">
+
+      <intent-filter>
+
+        <action name="com.microsoft.mmx.reporting.ACTION_JOIN"/>
+
+        <action name="com.microsoft.mmx.reporting.ACTION_VOTE"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.microsoft.mmx.continuity.registration.ConnectivityStateChangeReceiver" enabled="true" exported="true">
+
+      <intent-filter>
+
+        <action name="android.net.conn.CONNECTIVITY_CHANGE"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity theme="TransparentTheme" name="com.microsoft.mmx.core.ui.ShareActivity"/>
+
+    <receiver name="com.microsoft.mmx.continuity.receiver.InstallUninstallReceiver" enabled="true">
+
+      <intent-filter>
+
+        <action name="android.intent.action.PACKAGE_ADDED"/>
+
+        <action name="android.intent.action.PACKAGE_REPLACED"/>
+
+        <action name="android.intent.action.PACKAGE_REMOVED"/>
+
+        <action name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+
+        <data scheme="package"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.microsoft.mmx.continuity.receiver.PolicyReceiver" enabled="true">
+
+      <intent-filter>
+
+        <action name="com.microsoft.mmx.intent.action.UPDATE_POLICY"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity theme="MMXDebugPageStyle" name="com.microsoft.mmx.continuity.ui.DebugActivity" enabled="false"/>
+
+    <receiver name="com.microsoft.mmx.continuity.receiver.AppUpgradeReceiver">
+
+      <intent-filter>
+
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <activity label="ให้คำติชมแก่เรา" name="com.microsoft.mmx.feedback.userfeedback.ui.UserFeedbackActivity" windowSoftInputMode="0x10"/>
+
+    <activity theme="Theme.MSA" label="บัญชี Microsoft" icon="res/drawable-v4/msa_ms_logo.webp" name="com.microsoft.onlineid.authenticator.AccountAddPendingActivity" exported="false"/>
+
+    <activity theme="Theme.MSA.NoActionBar" name="com.microsoft.onlineid.internal.ui.WebFlowActivity" exported="false" configChanges="0x480" windowSoftInputMode="0x10"/>
+
+    <activity theme="Theme.MSA" label="บัญชี Microsoft" icon="res/drawable-v4/msa_ms_logo.webp" name="com.microsoft.onlineid.ui.AddAccountActivity" exported="false" configChanges="0x480" windowSoftInputMode="0x10">
+
+      <intent-filter>
+
+        <action name="com.microsoft.onlineid.internal.ADD_ACCOUNT"/>
+
+        <action name="com.microsoft.onlineid.internal.SIGN_UP_ACCOUNT"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.MSA.Transparent" name="com.microsoft.onlineid.ui.SignOutActivity" exported="false" configChanges="0x480"/>
+
+    <activity theme="Theme.MSA.Dialog" label="บัญชี Microsoft" icon="res/drawable-v4/msa_ms_logo.webp" name="com.microsoft.onlineid.internal.ui.AccountPickerActivity" exported="false">
+
+      <intent-filter>
+
+        <action name="com.microsoft.onlineid.internal.PICK_ACCOUNT"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </activity>
+
+    <activity theme="Theme.MSA" label="บัญชี Microsoft" icon="res/drawable-v4/msa_ms_logo.webp" name="com.microsoft.onlineid.internal.ui.InterruptResolutionActivity" exported="false"/>
+
+    <service name="com.microsoft.onlineid.internal.sso.client.BackupService" permission="android.permission.BIND_JOB_SERVICE" exported="false">
+
+      <intent-filter>
+
+        <action name="com.microsoft.onlineid.internal.sso.client.PUSH_BACKUP"/>
+
+        <action name="com.microsoft.onlineid.internal.sso.client.PUSH_BACKUP_IF_NEEDED"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.microsoft.onlineid.internal.MsaService" permission="android.permission.BIND_JOB_SERVICE" exported="false">
+
+      <intent-filter>
+
+        <action name="com.microsoft.onlineid.internal.GET_TICKET"/>
+
+        <action name="com.microsoft.onlineid.internal.GET_USER_KEY"/>
+
+        <action name="com.microsoft.onlineid.internal.UPDATE_PROFILE"/>
+
+        <action name="com.microsoft.onlineid.internal.SIGN_OUT"/>
+
+        <action name="com.microsoft.onlineid.internal.SIGN_OUT_ALL_APPS"/>
+
+        <category name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.microsoft.onlineid.internal.sso.service.MsaSsoService" enabled="true" exported="true">
+
+      <intent-filter>
+
+        <action name="com.microsoft.msa.action.SSO_SERVICE"/>
+
+      </intent-filter>
+
+      <meta-data name="com.microsoft.msa.service.sso_version" value="14"/>
+
+      <meta-data name="com.microsoft.msa.service.sdk_version" value="2.1.0524.0520"/>
+
+    </service>
+
+    <provider name="com.citrix.sdk.logging.helper.DiagContentProvider" exported="true" authorities="com.microsoft.emmx.com.citrix.managedApp.Diag"/>
+
+    <provider name="com.citrix.sdk.securestorage.api.SecureStorageProvider" authorities="com.microsoft.emmx.SecureStorageProvider"/>
+
+    <activity name="com.citrix.auth.internal.SecureHubAuthHelperActivity"/>
+
+    <service name="com.citrix.mvpn.service.MITMService" enabled="true"/>
+
+    <provider name="com.citrix.mvpn.contentprovider.TunnelStateContentProvider" exported="true" authorities="com.microsoft.emmx.com.citrix.mvpn.tunnelStateProvider"/>
+
+    <service name="com.evernote.android.job.v21.PlatformJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <service name="com.evernote.android.job.v14.PlatformAlarmService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <service name="com.evernote.android.job.v14.PlatformAlarmServiceExact" exported="false"/>
+
+    <receiver name="com.evernote.android.job.v14.PlatformAlarmReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="com.evernote.android.job.v14.RUN_JOB"/>
+
+        <action name="net.vrallev.android.job.v14.RUN_JOB"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <receiver name="com.evernote.android.job.JobBootReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="android.intent.action.BOOT_COMPLETED"/>
+
+        <action name="android.intent.action.QUICKBOOT_POWERON"/>
+
+        <action name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <service name="com.evernote.android.job.gcm.PlatformGcmService" permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" enabled="false" exported="true">
+
+      <intent-filter>
+
+        <action name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+
+      </intent-filter>
+
+    </service>
+
+    <service name="com.evernote.android.job.JobRescheduleService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+    <activity theme="Theme.PowerLift" name="com.microsoft.powerlift.android.RemedyActivity" exported="false"/>
+
+    <activity theme="Theme.PowerLift" name="com.microsoft.powerlift.android.PowerLiftSupportInsightsActivity" exported="false"/>
+
+    <receiver name="com.microsoft.powerlift.android.internal.sync.SyncJobBroadcastReceiver" exported="false">
+
+      <intent-filter>
+
+        <action name="com.evernote.android.job.ADD_JOB_CREATOR"/>
+
+      </intent-filter>
+
+    </receiver>
+
+    <service name="com.microsoft.tokenshare.TokenSharingService" enabled="true" exported="true">
+
+      <intent-filter>
+
+        <action name="com.microsoft.tokenshare.TokenSharingService"/>
+
+      </intent-filter>
+
+    </service>
+
+    <meta-data name="token_share_sdk_version" value="2"/>
+
+    <meta-data name="token_share_build_version" value="1.5.5"/>
+
+    <meta-data name="token_share_parcelable_version" value="3"/>
+
+    <activity name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" enabled="false" exported="false" process=":playcore_missing_splits_activity" stateNotNeeded="true" launchMode="3"/>
+
+    <activity theme="Theme.PlayCore.Transparent" name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" enabled="false" exported="false" process=":playcore_dialog_wrapper_activity" stateNotNeeded="true"/>
+
+  </application>
+
+</manifest>
